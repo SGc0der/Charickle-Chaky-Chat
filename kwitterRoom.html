@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Kwitter</title>
+        <link rel="stylesheet" href="kwitterRoom.css">
+        <script src="kwitterRoom.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <button class="btn btn-danger btn-circle" id="logout" type="button" onclick="logout()"><img src="icons8-fire-exit-48.png">&nbsp;&nbsp;Logout</button>
+        <div class="container">
+            <center>
+                <h1 id="welcome"></h1>
+            </center>
+            <br>
+            <br>
+            <h3 class="page-header">^ROCKING^ @rooms@ *RuLe*<img src="icons8-rock-64.png"></h3>
+            <div class="output"></div>
+            <label>Add Room:</label>
+            <img src="icons8-room-64 (1).png"><input placeholder="Enter the grand name" type="text" id="roomName" class="form-control">
+            <br>
+            <br>
+            <center>
+            <button type="button" class="btn btn-muted" onclick="addRoom()">Add</button>
+            </center>
+        </div>
+    </body>
+</html>
